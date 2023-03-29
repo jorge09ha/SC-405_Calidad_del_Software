@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Jorge Hernandez Araya | jorge09ha
+ * @author Grupo #5
  */
 public class Menu extends javax.swing.JFrame {
 
@@ -27,7 +27,6 @@ public class Menu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel2 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         btnTest1 = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
@@ -41,8 +40,6 @@ public class Menu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel2.setText("Jorge Hernández Araya");
-
         btnTest1.setText("Test 1");
         btnTest1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -50,7 +47,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        jLabel8.setText("Login Credenciales correctas");
+        jLabel8.setText("Login credenciales correctas");
 
         btnTest2.setText("Test 2");
         btnTest2.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +65,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setText("Sing out");
+        jLabel7.setText("Cerrar sesión ");
 
         btnTest4.setText("Test 4");
         btnTest4.addActionListener(new java.awt.event.ActionListener() {
@@ -125,7 +122,7 @@ public class Menu extends javax.swing.JFrame {
                 .addContainerGap(60, Short.MAX_VALUE))
         );
 
-        jLabel1.setText("Sumulacion 1 - Grupo #5 ");
+        jLabel1.setText("Simulación  1 - Grupo #5 ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -136,9 +133,6 @@ public class Menu extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(141, 141, 141)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(161, 161, 161)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(68, 68, 68)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -151,9 +145,7 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
-                .addComponent(jLabel2)
-                .addGap(75, 75, 75))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -240,7 +232,6 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton btnTest3;
     private javax.swing.JButton btnTest4;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;

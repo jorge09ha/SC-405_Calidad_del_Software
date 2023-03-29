@@ -30,10 +30,6 @@
                       <Component id="jLabel1" min="-2" pref="181" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
-                      <Component id="jLabel2" min="-2" pref="132" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
                       <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -49,19 +45,12 @@
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="39" max="32767" attributes="0"/>
-              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Jorge Hern&#xe1;ndez Araya"/>
-      </Properties>
-    </Component>
     <Container class="javax.swing.JPanel" name="jPanel1">
 
       <Layout>
@@ -133,7 +122,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Login Credenciales correctas"/>
+            <Property name="text" type="java.lang.String" value="Login credenciales correctas"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="btnTest2">
@@ -159,7 +148,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Sing out"/>
+            <Property name="text" type="java.lang.String" value="Cerrar sesi&#xf3;n "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="btnTest4">
@@ -179,7 +168,7 @@
     </Container>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Sumulacion 1 - Grupo #5 "/>
+        <Property name="text" type="java.lang.String" value="Simulaci&#xf3;n  1 - Grupo #5 "/>
       </Properties>
     </Component>
   </SubComponents>
